@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">#Trender</string>
+    <string name="settings_menu">Settings</string>
+    <string name="refresh_menu">Refresh</string>
+    <string name="exit_menu">Exit</string>
+    <string name="loading">Loading...</string>
+    <string name="conf_saved">Configuration saved correctly!</string>
+</resources>

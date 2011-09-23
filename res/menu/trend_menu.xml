@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings_opt" android:title="@string/settings_menu">
+    	<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    		<group android:id="@+id/grp_number_of_tweets" android:checkableBehavior="single">
+    			<item android:id="@+id/tweets_15" android:title="15 tweets"></item>
+    			<item android:id="@+id/tweets_25" android:title="25 tweets"></item>
+    			<item android:id="@+id/tweets_45" android:title="45 tweets"></item>
+    			<item android:id="@+id/tweets_65" android:title="65 tweets"></item>
+    		</group>
+    	</menu>
+    </item>
+    <item android:id="@+id/refresh_opt" android:title="@string/refresh_menu"></item>
+    <item android:id="@+id/exit_opt" android:title="@string/exit_menu"></item>
+    
+</menu>
